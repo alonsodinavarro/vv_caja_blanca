@@ -92,13 +92,13 @@ public class Editor {
 		}
 	}
 
-	// public int numPalabras(int inicio, int fin, String palabra) {
+	// public int numPalabras(int inicio, int fin, String palabra.txt) {
 	/**
 	 * 
 	 * @param inicio
 	 * @param fin
 	 * @param palabra a buscar en el texto
-	 * @return número de apariciones de palabra
+	 * @return número de apariciones de palabra.txt
 	 * @throws EmptyCollectionException
 	 * @throws IllegalArgumentException si inicio es &lt; 0 or fin &gt; size
 	 */
@@ -146,7 +146,7 @@ public class Editor {
 
 	/**
 	 * 
-	 * @return la palabra de mayor longitud
+	 * @return la palabra.txt de mayor longitud
 	 * @throws EmptyCollectionException
 	 */
 	public String mayorLongitud() throws EmptyCollectionException {
@@ -169,7 +169,7 @@ public class Editor {
 
 	/**
 	 * @param palabra
-	 * @param nuevaPalabra Sustituye palabra por nuevapalabra a lo largo de todo el
+	 * @param nuevaPalabra Sustituye palabra.txt por nuevapalabra a lo largo de todo el
 	 *                     texto
 	 */
 	public void sustituirPalabra(String palabra, String nuevaPalabra) {
